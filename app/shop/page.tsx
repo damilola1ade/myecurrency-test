@@ -1,4 +1,4 @@
-import ProductReviews from "../../components/LandingPage/ProductReviews";
+import ProductReviews from "../../components/ProductReviews";
 import AboutProduct from "./_components/AboutProduct";
 import Hero from "./_components/Hero";
 

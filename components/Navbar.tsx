@@ -31,7 +31,10 @@ export default function Navbar() {
   return (
     <div className="py-2 px-8 lg:px-32 2xl:px-64 w-full flex gap-64 justify-center items-center absolute z-40">
       <div className="max-w-[1440px] flex gap-32 items-center w-full">
-        <Image src="/navlogo.webp" width={80} height={80} alt="logo" />
+        <Link href="/">
+          <Image src="/navlogo.webp" width={80} height={80} alt="logo" />
+        </Link>
+
         <div className="hidden sm:flex">
           <div className="flex flex-row gap-16">
             {navLinks.map((item) => (

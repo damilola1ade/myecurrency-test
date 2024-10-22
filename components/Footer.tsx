@@ -37,7 +37,7 @@ export default function Footer() {
       </div>
 
       {/* Grid layout for the footer content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-8 w-full p-6 max-w-[1440px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-8 w-full p-6 max-w-[1080px]">
         {/* Company Section */}
         <div className="flex flex-col gap-4">
           <h1 className="font-semibold">COMPANY</h1>
@@ -66,7 +66,7 @@ export default function Footer() {
           {/* Consumer Advisory */}
           <div className="flex flex-col gap-4">
             <h1 className="font-semibold">CONSUMER ADVISORY</h1>
-            <span className="w-auto md:w-[300px] lg:w-[400px] text-white text-xs">
+            <span className="w-auto md:w-[300px] lg:w-[350px] text-white text-xs">
               These statements have not been evaluated by the Food and Drug
               Administration. This product is not intended to diagnose, treat,
               cure, or prevent any disease. This product should be used only as
@@ -74,7 +74,7 @@ export default function Footer() {
               of their respective owners and not affiliated with nor do they
               endorse this product. Results may vary.
             </span>
-            <p className="w-auto md:w-[300px] lg:w-[400px] text-xs">
+            <p className="w-auto md:w-[300px] lg:w-[350px] text-xs">
               By using our website or product, you agree to follow our{" "}
               <span className="text-blue-300">terms of service.</span>
             </p>
@@ -94,7 +94,7 @@ export default function Footer() {
             height={150}
             alt="social icons"
           />
-          <span className="mt-8 text-[11px] text-gray">
+          <span className="mt-8 w-full text-[11px] text-gray">
             © 2020@sleepstiq. All Rights Reserved.
           </span>
         </div>

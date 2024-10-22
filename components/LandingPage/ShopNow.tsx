@@ -6,9 +6,9 @@ export default function ShopNow() {
     <>
       <div className="flex flex-col sm:flex-row w-full gap-24 sm:gap-0 justify-between items-center text-blue">
         <div className="relative">
-          <Image src="/shopnow.png" width={800} height={800} alt="shop" />
+          <Image src="/shopnow.png" width={600} height={600} alt="shop" />
 
-          <div className="bg-white w-[300px] shadow-2xl p-4 rounded-lg absolute top-48 lg:top-72 right-5 text-[11px] 2xl:text-sm text-light">
+          <div className="bg-white w-[300px] shadow-2xl p-4 rounded-lg absolute top-48 space-y-1 lg:top-72 right-5 text-[11px] 2xl:text-sm text-light">
             <div>😊 Promotes calm and relaxation.</div>
             <div>💤 Inhalation allows for a rapid effect.</div>
             <div>✅ 100% drug-free, plant-based ingredients.</div>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import MoreAboutUs from "../MoreAboutUs";
 
 export default function OurMission() {
   return (

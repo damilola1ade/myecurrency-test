@@ -1,5 +1,4 @@
 import Button from "@/components/Button";
-import NumberInput from "@/components/NumberInput";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
 
